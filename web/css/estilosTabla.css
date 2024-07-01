@@ -4,10 +4,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 table{
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     border: 3px solid blueviolet;
-    width: 60%;
     margin-left: 20%;
     margin-top: 50px;
 }
@@ -19,13 +18,13 @@ td{
     border: 1px solid blueviolet;
 }
 th{
-    background-color:navajowhite;
+    background-color: navajowhite;
     color: plum;
 }
-tr :nth-child(odd){
+tr:nth-child(odd){
     background-color: darkgrey;
 }
-@media(min-widht:900px) and (max-windht:2000px){
+@media(min-width:900px) and (max-width:2000px){
     body{
         background-color: aquamarine;
     }
